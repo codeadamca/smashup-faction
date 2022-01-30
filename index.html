@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Smash Up Faction Randomizer</title>
+
+        <link href="styles.css" type="text/css" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/57a8a8c892.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+
+        
+        <section id="intro"></section>
+
+        <header>
+
+            <div id="header-container" class="center-container">
+                <img src="images/smashup-logo.png">
+                <div id="header-text" class="step-text">
+                    Get Some Random Awesomeness!
+                </div>
+                <div id="header-next" class="next-container">
+                    <i class="fas fa-caret-down fa-5x"></i>
+                </div>
+            </div>
+
+        </header>
+
+        <section id="step-1">
+
+            <div class="center-container">
+                <div id="step-1-previous" class="next-container">
+                    <i class="fas fa-caret-up fa-5x"></i>
+                </div>
+                <div id="step-1-text" class="step-text">
+                    <p>Number of players?</p>
+                    <i class="fas fa-minus-square fa-5x" id="player-count-minus"></i>
+                    <span id="player-count"></span>
+                    <i class="fas fa-plus-square fa-5x" id="player-count-plus"></i>
+                </div>
+                <div id="step-1-next" class="next-container">
+                    <i class="fas fa-caret-down fa-5x"></i>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="step-2">
+
+            <div class="center-container">
+                <div id="step-2-previous" class="next-container">
+                    <i class="fas fa-caret-up fa-5x"></i>
+                </div>
+                <div id="step-2-text" class="step-text">
+                    <p>Choose your expansions:</p>
+                    <div id="expansions"></div>
+                </div>
+                <div id="step-2-next" class="next-container">
+                    <i class="fas fa-caret-down fa-5x"></i>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="step-3">
+
+            <div class="center-container">
+                <div id="step-3-previous" class="next-container">
+                    <i class="fas fa-caret-up fa-5x"></i>
+                </div>
+                <div id="results"></div>
+                <div id="step-3-next" class="next-container">
+                    <i class="fas fa-sync fa-3x"></i>
+                </div>
+            </div>
+
+        </section>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

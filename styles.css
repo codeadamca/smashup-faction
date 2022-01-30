@@ -1,0 +1,146 @@
+/*
+Cursed Casual
+Font created by Jayvee D. Enaguas
+https://www.dafont.com/curse-casual-jve.font
+*/
+@font-face {
+    font-family: 'CursedCasual';
+    src: url('fonts/CurseCasual.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'CursedCasual',san-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #475FA3;
+    z-index: 100;
+}
+#header-container img {
+    max-width: 100%;
+}
+#header-text {
+    margin-top: 5vmax;
+    font-size: 5vmax;
+    -webkit-text-stroke: 2px black;
+    color: #fff;
+}
+
+/* Sections */
+.step-text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.step-text i {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+.center-container {
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.next-container {
+    margin: 1vmax 0;
+    -webkit-text-stroke: 2px black;
+    color: #fff;
+    cursor: pointer;
+}
+#intro {
+    position: relative;
+    z-index: 50;
+    border: 1px solid red;
+}
+section {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 200;
+}
+
+/* Step 1 */
+#step-1 {
+    background-color: #CED544;
+}
+#step-1-text p {
+    font-size: 5vmax;
+    -webkit-text-stroke: 2px black;
+    color: #fff;
+}
+#step-1 span {
+    display: inline-block;
+    width: 20vw;
+    font-size: 14vmax;
+}
+#player-count {
+    vertical-align: middle;
+}
+
+/* Step 2 */
+#expansions {
+    margin-top: 1vmax;
+}
+#expansions .box {
+    display: inline-block;
+    margin: 1vmax;
+}
+#expansions .box img {
+    display: block;
+    max-height: 100px;
+}
+#step-2-text p {
+    font-size: 5vmax;
+    -webkit-text-stroke: 2px black;
+    color: #475FA3;
+}
+#step-2 {
+    background-color: #fff;
+}
+.box.selected {
+    border: 5px solid #CED544;
+}
+.box {
+    border: 5px solid #D77931;
+}
+
+/* Step 3 */
+#step-3 {
+    background-color: #475FA3;
+}
+.card {
+    display: inline-block;
+}
+
+
+
+
+
+/*
+SmashUp Blue: #475FA3
+SmashUp Green: #CED544
+SmashUp Orange: #D77931
+*/
