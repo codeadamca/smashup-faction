@@ -1,4 +1,5 @@
-# smashup-faction
+# smashup-factions
+
 A small browser app to randomly choose factions for the Smash Up board game.
 
 The Smash Up tool is avaiulable to view at:
