@@ -135,9 +135,14 @@ section {
     display: inline-block;
 }
 
-
-
-
+#codeadam {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 24px;
+    padding: 15px;
+    z-index: 10000;
+}
 
 /*
 SmashUp Blue: #475FA3
