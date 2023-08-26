@@ -2,15 +2,16 @@
 
 A small browser app to randomly choose factions for the Smash Up board game.
 
-The Smash Up tool is avaiulable to view at:
+![SmashUp Faction Selector](_readme/screenshot-smashup.png)
 
-https://pages.codeadam.ca/smashup-factions
+> The Smash Up tool is avaiulable to view at:  
+> https://pages.codeadam.ca/smashup-factions
 
-![SmashUp Faction Selector](https://raw.githubusercontent.com/codeadamca/smashup-factions/main/screenshot-smashup.png)
+---
 
-## Requirements:
+## Repo Resources
 
-* [Smash Up](https://www.alderac.com/smash-up-home/) 
+- [Smash Up](https://www.alderac.com/smash-up-home/)
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
